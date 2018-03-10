@@ -1,3 +1,8 @@
+:root {
+    --main-color: #0066cc;
+  }
+
+
 .header-main { 
     background: #292929;
 }
@@ -7,7 +12,7 @@
 .nav-item { font-weight: bold; padding-left: 15px; padding-right: 15px; }
 .nav-link { color: #ffffff !important; } 
 .nav-item:hover{
-    background-color: #0066cc;
+    background-color: var(--main-color);
     display: block;
 }
 .dropdown.dropdown-nav-custom:hover .dropdown-menu.dropdown-nav-custom{
@@ -17,7 +22,7 @@
  .dropdown-toggle.dropdown-nav-custom:after { display:none; }
  .dropdown-menu.dropdown-nav-custom { background-color: #ffffff;}
  .dropdown-item.dropdown-nav-custom { color: #ffffff; } 
- .dropdown-item.dropdown-nav-custom:hover { background-color: #0066cc; color: #ffffff;border-bottom:1px solid #e9ecef;}
+ .dropdown-item.dropdown-nav-custom:hover { background-color: var(--main-color); color: #ffffff;border-bottom:1px solid #e9ecef;}
  .btn-get-quote { background-color: #ffffff; border-color: #ffffff;  }
  .btn-get-quote:hover { color: #ffffff; background-color: transparent;  }
  .call-us {
@@ -45,7 +50,7 @@
 .call-number{
     position: relative; bottom: 20px
 }
-.call-number:hover { color: #0066cc }
+.call-number:hover { color: var(--main-color) }
 .ion-phone { width: 20px; height: 40px; padding-right: 10px; position: relative; bottom: 15px}
 .ion-phone img { width: 20px; height: 40px; }
 .vertical-line { border-right:1px solid #c5c3c3; height: 60px; position: relative; bottom: 25px }
@@ -57,14 +62,14 @@
     font-size: 20px;
     color: #545454;
     display:block;}
-    .btn-Apply-Now { background-color: #F2184F; border-color: #F2184F; color: #ffffff  }
-    .btn-Apply-Now:hover { color:#F2184F; background-color: transparent;  }
-.color-carousel-text { color: #F2184F; }
+    .btn-Apply-Now { background-color: var(--main-color); border-color: var(--main-color); color: #ffffff  }
+    .btn-Apply-Now:hover { color:var(--main-color); background-color: transparent; }
+.color-carousel-text { color: var(--main-color); }
 .carosel-padding{
     margin-bottom: 2%
 }
 .div-small-banner {
-    background-color: #0066cc;
+    background-color: var(--main-color);
     margin-bottom: 2%
   }
   .section-padding {
@@ -80,14 +85,14 @@
     padding: 40px
 }
 h2 span { 
-    color: #0066cc;
+    color: var(--main-color);
     font-weight: bold;
 }
 .b-line {
     position: relative;
     width: 60px;
     height: 3px;
-    background: #0066cc;
+    background: var(--main-color);
     display: block;
     margin: 0 auto;
 }
@@ -98,3 +103,45 @@ h2 span {
     margin-top: 15px;
     text-align: center;
 }
+.mainFooter{
+    color: rgb(201, 201, 201);
+    min-height: 200px;
+    background-color: #292929; 
+}
+
+.mainFooter .row{
+    padding-top: 30px;
+}
+
+.mainFooter li{
+    list-style-type: none;
+}
+
+.mainFooter a{
+    color: #c9c9c9;
+	text-decoration-line: none;
+}
+
+.mainFooter a:hover {
+    color: var(--main-color);
+	text-decoration-line: none;
+}
+.widget_title {
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 30px 5px 0;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.carousel-item img {
+    height: 85%;
+}
+.carousel-caption {
+    position: fixed;
+    top:170px;
+ }
+ .footer-ul{
+     padding: 0px;
+ }
