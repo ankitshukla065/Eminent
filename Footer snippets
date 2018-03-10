@@ -1,0 +1,65 @@
+Html code
+
+<!-- Footer -->
+    <footer class="mainFooter bg-dark">
+        <div class="container">
+         <div class="row">
+            <div class="col-sm-3">
+                <h5> About </h5>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur nam consequuntur eius non, cumque dicta nihil!</p>
+            </div>
+            <div class="col-sm-3">
+                <h5>Links</h5>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Enquiry</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5> Courses </h5>
+                <ul>
+                    <li><a href="#">2 year Course</a></li>
+                    <li><a href="#">1 year Course</a></li>
+                    <li><a href="#">Repeater's Batch</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5> Contact </h5>
+                <p class="text-justify">
+                   202, Labour Chowk,
+                   Jai Nagar Road, Yadav Colony,
+                   Jabalpur (M.P) 482002 
+                   <br>
+                   Phone: 8982382989, 9516566969 </p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+CSS Code:
+
+.mainFooter{
+    color: rgb(201, 201, 201);
+    min-height: 200px; 
+}
+
+.mainFooter .row{
+    padding-top: 30px;
+}
+
+.mainFooter li{
+    list-style-type: none;
+}
+
+.mainFooter a{
+    color: #000000;
+	text-decoration-line: none;
+}
+
+.mainFooter a:hover {
+    color: #340164;
+	text-decoration-line: none;
+}    
