@@ -145,3 +145,49 @@ h2 span {
  .footer-ul{
      padding: 0px;
  }
+ .text-center {
+    text-align: center;
+}
+.gray-bg {
+    background: rgb(247, 247, 247);
+}
+.about-block:hover {
+    -webkit-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    transition: all 0.4s linear 0s;
+    overflow: hidden;
+    background-color: var(--main-color);
+}
+.about-block:hover .btn-Apply-Now {
+    color:#ffffff; 
+    background-color: transparent;
+    border-color: #ffffff;
+}
+.about-block:hover .img-responsive{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.1);
+    -webkit-transition: transform 0.4s ease-in-out;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.fl {
+    float: left;
+}
+.half-width {
+    overflow: hidden;
+}
+.img-scale img{
+    width: 560px;
+    height: 206px;
+}
+.half-width {
+    overflow: hidden;
+}
+.padding-20 {
+    padding: 20px;
+}
+.box-title a{
+    text-decoration-line: none;
+    color: #292929;
+}
