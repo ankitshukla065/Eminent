@@ -1,4 +1,7 @@
-.header-main { background: #292929;}
+.header-main { 
+    background: #292929;
+}
+
 .title-bar { background-color: #ffffff; height: 80px;  }
 .navbar-custom { background-color: #292929 !important;}
 .nav-item { font-weight: bold; padding-left: 15px; padding-right: 15px; }
@@ -57,3 +60,21 @@
     .btn-Apply-Now { background-color: #F2184F; border-color: #F2184F; color: #ffffff  }
     .btn-Apply-Now:hover { color:#F2184F; background-color: transparent;  }
 .color-carousel-text { color: #F2184F; }
+.carosel-padding{
+    padding-bottom: 30px;
+}
+.div-small-banner {
+    background-color: #0066cc;
+  }
+  .section-padding {
+      padding: 35px;
+  }
+.samll-banner-text{
+    color: #ffffff;
+    float: left;
+    display: block;
+}
+.samll-banner-btn{
+    float: right;
+    padding: 40px
+}
