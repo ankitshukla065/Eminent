@@ -159,8 +159,8 @@ h2 span {
     background-color: var(--main-color);
 }
 .about-block:hover .btn-Apply-Now {
-    color:#ffffff; 
-    background-color: transparent;
+    color: var(--main-color); 
+    background-color: #ffffff;
     border-color: #ffffff;
 }
 .about-block:hover .img-responsive{
