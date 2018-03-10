@@ -54,3 +54,6 @@
     font-size: 20px;
     color: #545454;
     display:block;}
+    .btn-Apply-Now { background-color: #F2184F; border-color: #F2184F; color: #ffffff  }
+    .btn-Apply-Now:hover { color:#F2184F; background-color: transparent;  }
+.color-carousel-text { color: #F2184F; }
