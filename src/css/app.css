@@ -61,10 +61,11 @@
     .btn-Apply-Now:hover { color:#F2184F; background-color: transparent;  }
 .color-carousel-text { color: #F2184F; }
 .carosel-padding{
-    padding-bottom: 30px;
+    margin-bottom: 2%
 }
 .div-small-banner {
     background-color: #0066cc;
+    margin-bottom: 2%
   }
   .section-padding {
       padding: 35px;
@@ -77,4 +78,23 @@
 .samll-banner-btn{
     float: right;
     padding: 40px
+}
+h2 span { 
+    color: #0066cc;
+    font-weight: bold;
+}
+.b-line {
+    position: relative;
+    width: 60px;
+    height: 3px;
+    background: #0066cc;
+    display: block;
+    margin: 0 auto;
+}
+.margin-gap{
+    margin-bottom: 3%;
+}
+.nav-button{
+    margin-top: 15px;
+    text-align: center;
 }
