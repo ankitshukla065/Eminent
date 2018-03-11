@@ -194,6 +194,3 @@ h2 span {
     text-decoration-line: none;
     color: #292929;
 }
-.card-title{
-    color: rgb(0, 0, 0);
-}

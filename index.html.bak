@@ -61,7 +61,7 @@
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
-                                    <a data-target="header" class="nav-link" href="#">Home
+                                    <a data-target="#" class="nav-link" href="#">Home
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
@@ -110,8 +110,8 @@
                     <h2>Welcome to
                         <span>Eminent</span>
                     </h2>
-                    <h5 style="color: #ffffff; font-style:italic;">Go the extra mile, it's never crowded</h5>
-                    <!-- <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button> -->
+                    <h5 style="color: #ffffff">Please Apply today</h5>
+                    <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button>
                 </div>
             </div>
             <div class="carousel-item">
@@ -120,8 +120,8 @@
                     <h2>Welcome to
                         <span>Eminent</span>
                     </h2>
-                    <h5 style="color: #ffffff; font-style:italic;">Go the extra mile, it's never crowded</h5>
-                    <!-- <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button> -->
+                    <h5 style="color: #ffffff">Please Apply today</h5>
+                    <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button>
                 </div>
             </div>
             <div class="carousel-item">
@@ -130,8 +130,8 @@
                     <h2>Welcome to
                         <span>Eminent</span>
                     </h2>
-                    <h5 style="color:#ffffff; font-style:italic;">Go the extra mile, it's never crowded</h5>
-                    <!-- <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button> -->
+                    <h5 style="color: #ffffff">Please Apply today</h5>
+                    <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button>
                 </div>
             </div>
         </div>
@@ -153,18 +153,16 @@
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-8 .ml-auto">
                         <div class="samll-banner-text">
-                            <h2>Looking for right Guidance?</h2>
-                            <p class="lead text-justify">Are you confused what's the best career path for you in the future? 
-                                Are you not sure what field best suits your skills? Take advantage of our expert counselling and find all 
-                                your answers. 
-                            </p>
+                            <h2>Confused About Which Course to Join!</h2>
+                            <p>Most of the times students are confused and don't know which course is suitable for them. We
+                                provide the free counseling session!</p>
                         </div>
                     </div>
-                    <!-- <div class="col-sm-2 offset-md-2">
+                    <div class="col-sm-2 offset-md-2">
                         <div class="samll-banner-btn">
                             <button class="btn btn-get-quote my-2 my-sm-0" type="submit" style="width: 150px">Apply Now</button>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </section>
@@ -187,80 +185,6 @@
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="card-deck">
-                                    <div class="card text-white bg-info mb-3">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Micro-Scheduled content based learning</h5>
-                                            <p class="card-text">Our courses are micro-scheduled, i.e., each topic is divided into sub topics
-                                                 so that each concept can be planned and taught throughly and learned by 
-                                                 students according to their learning capability.</p>
-                                            <p class="card-text">
-                                
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="card text-white bg-info mb-3">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Regular meditation sessions.</h5>
-                                            <p class="card-text">Regular meditation session to enhance mental strenth and 
-                                                concentration in students.
-                                            </p>
-                                            <p class="card-text">
-                                            
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="card text-white bg-info mb-3">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Regular psychology counselling</h5>
-                                            <p class="card-text">Regular counselling session to interact with students one on one and understand 
-                                                their difficulties. Our aim is to always motivate them and keep up their spirit.
-                                            </p>
-                                            <p class="card-text">
-                                                
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="card-deck">
-                                    <div class="card text-white bg-info mb-3">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Articial intelligence based comprehensive &
-                                                    continuous self evaluation techniques</h5>
-                                            <p class="card-text">AI helps us to understand and improvise the learning pattern of 
-                                                each individual student which can lead to enhanced performance.
-                                            <p class="card-text">
-                                                
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="card text-white bg-info mb-3">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Regular parents-teachers interactions.</h5>
-                                            <p class="card-text">Regular parents teacher meeting session so parents are completely in sync 
-                                                with the performance, difficulties and improvements in their children.
-                                            </p>
-                                            <p class="card-text">
-                                                
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="card text-white bg-info mb-3">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Residential program & transportation</h5>
-                                            <p class="card-text">Availibility of transportation facilities for students and also Residential program 
-                                                for those staying away from home. </p>
-                                            <p class="card-text">
-                                                
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                          <!--  <div class="carousel-item">
                                 <div class="card-deck">
                                     <div class="card text-white bg-info mb-3">
                                         <div class="card-body">
@@ -293,7 +217,75 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-deck">
+                                    <div class="card text-white bg-info mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                                content. This content is a little bit longer.</p>
+                                            <p class="card-text">
+                                                <small class="text-muted">Last updated 3 mins ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-info mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                            <p class="card-text">
+                                                <small class="text-muted">Last updated 3 mins ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-info mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                                content. This card has even longer content than the first to show that equal
+                                                height action.</p>
+                                            <p class="card-text">
+                                                <small class="text-muted">Last updated 3 mins ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-deck">
+                                    <div class="card text-white bg-info mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                                content. This content is a little bit longer.</p>
+                                            <p class="card-text">
+                                                <small class="text-muted">Last updated 3 mins ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-info mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                            <p class="card-text">
+                                                <small class="text-muted">Last updated 3 mins ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-info mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                                content. This card has even longer content than the first to show that equal
+                                                height action.</p>
+                                            <p class="card-text">
+                                                <small class="text-muted">Last updated 3 mins ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -330,20 +322,19 @@
                 <div class="col-md-6 col-lg-6 mb-30">
                     <div class="img-scale about-block gray-bg d-flex">
                         <div class="fl half-width">
-                            <img class="img-responsive" src="src/images/Carousel/Offerings/2.jpg" alt="Photo">
+                            <img class="img-responsive" src="src/images/Carousel/Main_Banner/1.jpg" alt="Photo">
                         </div>
                         <div class="padding-20 d-flex flex-column half-width">
                             <div class="box-title">
                                 <h3>
-                                    <a href="#">2 year NEET/AIIMS</a>
+                                    <a href="#">Philosopphy</a>
                                 </h3>
                             </div>
                             <div>
                                 <p>
-                                        2 year Classroom Programme For Medical. Eligibilty - For X to XI
-                                        Moving Students
+                                    Lorem ipsum dolor sit amet, consectetur elit sed do eiusmod tempor incididunt
                                 </p>
-                                <!-- <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button> -->
+                                <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button>
                             </div>
                         </div>
                     </div>
@@ -351,20 +342,19 @@
                 <div class="col-md-6 col-lg-6 mb-30">
                     <div class="img-scale about-block gray-bg d-flex">
                         <div class="fl half-width">
-                            <img class="img-responsive" src="src/images/Carousel/Offerings/1.jpg" alt="Photo">
+                            <img class="img-responsive" src="src/images/Carousel/Main_Banner/1.jpg" alt="Photo">
                         </div>
                         <div class="padding-20 d-flex flex-column half-width">
                             <div class="box-title">
                                 <h3>
-                                    <a href="#">2 year IIT-JEE</a>
+                                    <a href="#">Philosopphy</a>
                                 </h3>
                             </div>
                             <div>
                                 <p>
-                                        2 year Classroom Programme For Engineering. Eligibilty - For X to XI
-                                        Moving Students
+                                    Lorem ipsum dolor sit amet, consectetur elit sed do eiusmod tempor incididunt
                                 </p>
-                                <!-- <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button> -->
+                                <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button>
                             </div>
                         </div>
                     </div>
@@ -372,20 +362,19 @@
                 <div class="col-md-6 col-lg-6 mb-30">
                     <div class="img-scale about-block gray-bg d-flex">
                         <div class="fl half-width">
-                            <img class="img-responsive" src="src/images/Carousel/Offerings/3.jpg" alt="Photo">
+                            <img class="img-responsive" src="src/images/Carousel/Main_Banner/1.jpg" alt="Photo">
                         </div>
                         <div class="padding-20 d-flex flex-column half-width">
                             <div class="box-title">
                                 <h3>
-                                    <a href="#">1 year NEET/AIIMS</a>
+                                    <a href="#">Philosopphy</a>
                                 </h3>
                             </div>
                             <div>
                                 <p>
-                                        1yr Classroom Programme For Medical. Eligibilty - XII Appearing /
-                                        Pass Students
+                                    Lorem ipsum dolor sit amet, consectetur elit sed do eiusmod tempor incididunt
                                 </p>
-                                <!-- <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button> -->
+                                <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button>
                             </div>
                         </div>
                     </div>
@@ -393,20 +382,19 @@
                 <div class="col-md-6 col-lg-6 mb-30">
                     <div class="img-scale about-block gray-bg d-flex">
                         <div class="fl half-width">
-                            <img class="img-responsive" src="src/images/Carousel/Offerings/4.jpg" alt="Photo">
+                            <img class="img-responsive" src="src/images/Carousel/Main_Banner/1.jpg" alt="Photo">
                         </div>
                         <div class="padding-20 d-flex flex-column half-width">
                             <div class="box-title">
                                 <h3>
-                                    <a href="#">1 year IIT-JEE</a>
+                                    <a href="#">Philosopphy</a>
                                 </h3>
                             </div>
                             <div>
                                 <p>
-                                        1yr Classroom Programme For Engineering. Eligibilty - XII Appearing /
-                                        Pass Students
+                                    Lorem ipsum dolor sit amet, consectetur elit sed do eiusmod tempor incididunt
                                 </p>
-                                <!-- <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button> -->
+                                <button type="button" class="btn btn-Apply-Now">Conatct Us Today</button>
                             </div>
                         </div>
                     </div>
@@ -435,7 +423,6 @@
             </div>
         </div>
     </div>
-    <!-- End of Modal Dialog-->
 
     <!-- Footer -->
     <footer class="mainFooter" id="Footer">
@@ -443,7 +430,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-3 col-sm-6">
                     <h5 class="widget_title"> About </h5>
-                    <p>A career institute with promotes free learning</p>
+                    <p>Lorem ipsum dolor sit amet consectetur nam consequuntur eius non, cumque dicta nihil!</p>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <h5 class="widget_title" style="padding-left:50px">Links</h5>
@@ -506,7 +493,7 @@ if (nav.length) {
     $("#dropdown > a").click(function(e) { 
         e.preventDefault(); 
         goToByScroll($(this).attr("data-target"));           
-    });
+    }); 
 
 </script>
 
