@@ -139,11 +139,16 @@ h2 span {
     margin-bottom: 15px;
 }
 .carousel-item img {
-    height: 85%;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 .carousel-caption {
-    position: fixed;
-    top:170px;
+    top: 50%;
+transform: translateY(-50%);
+bottom: initial;
  }
  .footer-ul{
      padding: 0px;
