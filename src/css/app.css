@@ -134,9 +134,10 @@ h2 span {
     font-family: 'Libre Baskerville', serif;
     color: #ffffff;
     display: inline-block;
-    padding: 0 30px 5px 0;
+    padding: 30 5px 5px 0;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    text-decoration: underline;
 }
 
 @media(min-width: 600px ){
@@ -197,11 +198,8 @@ bottom: initial;
     overflow: hidden;
 }
 .img-scale img{
-    width: 560px;
-    height: 206px;
-}
-.half-width {
-    overflow: hidden;
+    max-width: 560px;
+    max-height: 206px;
 }
 .padding-20 {
     padding: 20px;
@@ -209,6 +207,8 @@ bottom: initial;
 .box-title a{
     text-decoration-line: none;
     color: #292929;
+    width: 296px;
+    height: 57px;
 }
 .card-title{
     color: rgb(0, 0, 0);
