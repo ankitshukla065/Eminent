@@ -213,3 +213,76 @@ bottom: initial;
 .card-title{
     color: rgb(0, 0, 0);
 }
+
+/* Why Eminent Carousel */
+.why-eminent{
+  height: 320px;
+}
+.why-eminent-container {
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.why-eminent-carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.why-eminent-item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.95;
+  border-radius: 10px;
+  background-color: #17A0B6;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(250px);
+}
+.b {
+  transform: rotateY(60deg) translateZ(250px);
+}
+.c {
+  transform: rotateY(120deg) translateZ(250px);
+}
+.d {
+  transform: rotateY(180deg) translateZ(250px);
+}
+.e {
+  transform: rotateY(240deg) translateZ(250px);
+}
+.f {
+  transform: rotateY(300deg) translateZ(250px);
+}
+/* End of Why Eminent Carousel */
+
+.testimonial{
+  background-color: var(--main-color);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.testimonial-carousel{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.testimonial-card img{
+  width: 100%;
+  height: 260px;
+}
+ .testimonial-card-body{
+  background-color: var(--main-color);
+  color: #ffffff;
+  text-align: center;
+  padding: 3%;
+ }
