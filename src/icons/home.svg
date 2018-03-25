@@ -7,6 +7,7 @@
 	76,160.245 111,160.245 111,250.245 163.5,250.245 163.5,180.245 208.5,180.245 208.5,250.245 231,250.245 261,250.245 261,160.245 
 	295.999,160.245 "/>
 <ellipse fill="none" stroke="#ED1C24" stroke-width="4" stroke-miterlimit="10" cx="186" cy="174.5" rx="179" ry="166.5"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" x1="115" y1="150.245" x2="186" y2="79.245"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" x1="186" y1="79.245" x2="262" y2="150.245"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="16" stroke-miterlimit="10" x1="115" y1="150.245" x2="186" y2="79.245"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="16" stroke-miterlimit="10" x1="186" y1="79.245" x2="262" y2="150.245"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="16" stroke-miterlimit="10" x1="181.011" y1="80.683" x2="191.859" y2="80.683"/>
 </svg>
