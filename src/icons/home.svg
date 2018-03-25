@@ -2,10 +2,11 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="372px" height="351px" viewBox="289.5 70.5 372 351" enable-background="new 289.5 70.5 372 351" xml:space="preserve">
-<polygon fill="#ED1C24" stroke="#FF0000" stroke-miterlimit="10" points="551,197 551,132 521,132 521,167 476,122 366,232 401,232 
-	401,322 453.5,322 453.5,252 498.5,252 498.5,322 521,322 551,322 551,232 585.999,232 "/>
-<ellipse fill="none" stroke="#ED1C24" stroke-width="4" stroke-miterlimit="10" cx="476" cy="246.255" rx="179" ry="166.5"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="405" y1="222" x2="476" y2="151"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="476" y1="151" x2="552" y2="222"/>
+	 width="372px" height="351px" viewBox="0 0 372 351" enable-background="new 0 0 372 351" xml:space="preserve">
+<polygon fill="#ED1C24" stroke="#FF0000" stroke-miterlimit="10" points="261,125.245 261,60.245 231,60.245 231,95.245 186,50.245 
+	76,160.245 111,160.245 111,250.245 163.5,250.245 163.5,180.245 208.5,180.245 208.5,250.245 231,250.245 261,250.245 261,160.245 
+	295.999,160.245 "/>
+<ellipse fill="none" stroke="#ED1C24" stroke-width="4" stroke-miterlimit="10" cx="186" cy="174.5" rx="179" ry="166.5"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" x1="115" y1="150.245" x2="186" y2="79.245"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" x1="186" y1="79.245" x2="262" y2="150.245"/>
 </svg>
