@@ -283,6 +283,7 @@ bottom: initial;
  .testimonial-card-body{
   background-color: var(--main-color);
   color: #ffffff;
+  height: 40%;
   text-align: center;
   padding: 3%;
  }
