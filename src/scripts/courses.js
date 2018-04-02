@@ -45,7 +45,7 @@ function submitajax(fName,lName,contact,eID){
 
      submitter = new XMLHttpRequest();
 
-     submitter.open("POST","apply.php", true);
+     submitter.open("POST","./src/scripts/apply.php", true);
      submitter.setRequestHeader("Content-type","application/x-www-form-urlencoded");
      submitter.send(valueString);
 
