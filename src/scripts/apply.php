@@ -27,15 +27,24 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "INSERT INTO applicant (firstName, lastName, mobile, email)
-VALUES ('$fname' ,'$lname' ,'$contactNumber' ,'$email' )";
+//Prepared Statement implmentation
+$stmt = $conn->prepare("INSERT INTO applicant (firstName, lastName, mobile, email) VALUES (? , ? , ? , ? )");
 
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
+$stmt->bind_param("ssss", $fname, $lname, $contactNumber, $email);
 
+$stmt->execute();
+
+
+// $sql = "INSERT INTO applicant (firstName, lastName, mobile, email)
+// VALUES ('$fname' ,'$lname' ,'$contactNumber' ,'$email' )";
+
+// if ($conn->query($sql) === TRUE) {
+//     echo "New record created successfully";
+// } else {
+//     echo "Error: " . $sql . "<br>" . $conn->error;
+// }
+
+$stmt->close();
 $conn->close();
 
 ?>

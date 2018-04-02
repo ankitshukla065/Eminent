@@ -55,8 +55,6 @@ function submitajax(fName,lName,contact,eID){
         }
     }
 
-    console.log(submitter);
-
 
 }
 
