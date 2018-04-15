@@ -51,10 +51,13 @@ function submitajax(fName,lName,contact,eID){
 
     submitter.onreadystatechange = function() {
         if(submitter.readyState == 4 && submitter.status == 200) {
-            console.log("Data Saved successfully");
+            console.log("Data Saved successfully + hi");
+            var messageDiv = document.getElementById("message");
+            console.log(messageDiv);
+            messageDiv.className += ' alert-success';
+            messageDiv.innerHTML += 'Your Message has successfully saved!!!'
         }
     }
 
 
 }
-
