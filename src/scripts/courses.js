@@ -53,12 +53,16 @@ function submitajax(fName,lName,contact,eID,courseName){
 
     submitter.onreadystatechange = function() {
         if(submitter.readyState == 4 && submitter.status == 200) {
+<<<<<<< HEAD
             console.log("Data Saved successfully + hi");
             alertMessage('alert-success', 'Your Message has successfully saved!!!');
             clearAllFormData();
         }
         else{
             alertMessage('alert-danger', 'data not saved');
+=======
+            console.log("Data Saved successfully");
+>>>>>>> 845b3e2ee4c8bea2db353cc1be2e7b760ed31a79
         }
     }
 }
@@ -69,9 +73,14 @@ function alertMessage(className, message){
     messageDiv.innerHTML = message;
 }
 
+<<<<<<< HEAD
 function clearAllFormData(){
     document.forms["applicantDetails"]["firstName"].value = "";
     document.forms["applicantDetails"]["lastName"].value = "";
     document.forms["applicantDetails"]["mobile"].value = "";
     document.forms["applicantDetails"]["emailId"].value = "";
 }
+=======
+}
+
+>>>>>>> 845b3e2ee4c8bea2db353cc1be2e7b760ed31a79

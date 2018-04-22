@@ -20,13 +20,13 @@
 
 .course_card{
   padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .course_card > .card{
   border: 0px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15), 0 6px 6px 0 rgba(0, 0, 0, 0.15);
-  background: #eeb902;   
+  background: #eeb902;
 }
 
 .course_card > .card:hover {
