@@ -88,6 +88,7 @@
     <!-- End of naviagtion bar -->
 
     <!--- Courses start -->
+    <div id="courses">
     <div class="courses_showcase jumbotron">
         <div class="container">
             <h1>Courses</h1>
@@ -112,7 +113,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 apply_button">
-                    <button type="button" class="aligh-middle btn btn-success btn-lg" data-toggle="modal" data-target="#info_modal">Apply</button>
+                    <button id="2I" type="button" class="aligh-middle btn btn-success btn-lg" data-id="2I" data-toggle="modal" data-target="#info_modal">Apply</button>
                 </div>
             </div>
         </div>
@@ -131,7 +132,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 apply_button">
-                    <button type="button" class="aligh-middle btn btn-success btn-lg" data-toggle="modal" data-target="#info_modal">Apply</button>
+                    <button id="2N" type="button" class="aligh-middle btn btn-success btn-lg" data-id="2N" data-toggle="modal" data-target="#info_modal">Apply</button>
                 </div>
             </div>
         </div>
@@ -155,7 +156,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 apply_button">
-                    <button type="button" class="aligh-middle btn btn-success btn-lg" data-toggle="modal" data-target="#info_modal">Apply</button>
+                    <button id="1I" type="button" class="aligh-middle btn btn-success btn-lg" data-id="1I" data-toggle="modal" data-target="#info_modal">Apply</button>
                 </div>
             </div>
         </div>
@@ -174,12 +175,13 @@
                     </div>
                 </div>
                 <div class="col-md-2 apply_button">
-                    <button type="button" class="aligh-middle btn btn-success btn-lg" data-toggle="modal" data-target="#info_modal">Apply</button>
+                    <button id="1N" type="button" class="aligh-middle btn btn-success btn-lg" data-id="1N" data-toggle="modal" data-target="#info_modal">Apply</button>
                 </div>
             </div>
         </div>
     </div>
 
+</div>
 
 
 
@@ -196,7 +198,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div id="message" class="alert" role="alert">                     
+                    <div id="message" role="alert">                     
                       </div>
                     <p>Please Enter contact details</p>
                     <form name="applicantDetails" onsubmit="submitDetails()" method="POST">
@@ -211,6 +213,14 @@
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control" name="emailaddress" id="emailId" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="course-options">
+                                <option id="2N-dropdown">2 year NEET</option>
+                                <option id="2I-dropdown">2 year IIT</option>
+                                <option id="1N-dropdown">1 year NEET</option>
+                                <option id="1I-dropdown">1 year IIT</option>
+                              </select>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -285,6 +295,18 @@
     {
         e.preventDefault();
     });
+
+    $('#info_modal').on('show.bs.modal', function(e){
+    var id = $(e.relatedTarget).data('id');
+    document.getElementById(id + "-dropdown").selected= true;
+});
+
+$('#info_modal').on('hidden.bs.modal', function () {
+    var messageDiv = document.getElementById("message");
+    messageDiv.innerHTML = "";
+    messageDiv.className = "";
+
+})
     </script>
 
 
