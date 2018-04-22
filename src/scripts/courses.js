@@ -54,12 +54,12 @@ function submitajax(fName,lName,contact,eID,courseName){
     submitter.onreadystatechange = function() {
         if(submitter.readyState == 4 && submitter.status == 200) {
             console.log("Data Saved successfully + hi");
-            alertMessage('alert-success', 'Your Message has successfully saved!!!');
+            alertMessage('alert-success', 'Your application has been successfully saved. We will contact you soon');
             clearAllFormData();
         }
         else{
             alertMessage('alert-danger', 'data not saved');
-            console.log("Data Saved successfully");
+            console.log("Data not saved");
         }
     }
 }

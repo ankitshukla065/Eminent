@@ -1,12 +1,14 @@
 <?php
  
  
-$fname = $lname = $contactNumber = $email = "before";
+$fname = $lname = $contactNumber = $email = $course = "before";
 
-   $fname = $_POST["fname"];
-   $lname = $_POST["lname"];
-   $contactNumber = $_POST["contact"];
-   $email = $_POST["email"];
+   $fname = test_input($_POST["fname"]);
+   $lname = test_input($_POST["lname"]);
+   $contactNumber = test_input($_POST["contact"]);
+   $email = test_input($_POST["email"]);
+   $course = test_input($_POST["course"]);
+
      
  function test_input($data) {
    $data = trim($data);
@@ -27,16 +29,16 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-//Prepared Statement implmentation
-$stmt = $conn->prepare("INSERT INTO applicant (firstName, lastName, mobile, email) VALUES (? , ? , ? , ? )");
+// Prepared Statement implmentation
+$stmt = $conn->prepare("INSERT INTO applicant (firstName, lastName, mobile, email, course) VALUES (? , ? , ? , ? , ?)");
 
-$stmt->bind_param("ssss", $fname, $lname, $contactNumber, $email);
+$stmt->bind_param("sssss", $fname, $lname, $contactNumber, $email, $course);
 
 $stmt->execute();
 
 
-// $sql = "INSERT INTO applicant (firstName, lastName, mobile, email)
-// VALUES ('$fname' ,'$lname' ,'$contactNumber' ,'$email' )";
+// $sql = "INSERT INTO applicant (firstName, lastName, mobile, email, course)
+// VALUES ('$fname' ,'$lname' ,'$contactNumber' ,'$email' ,'$course')";
 
 // if ($conn->query($sql) === TRUE) {
 //     echo "New record created successfully";
