@@ -35,8 +35,10 @@
 }
 
 .unique{
+  margin-top: 100px; 
   background: #97CC04;
     color: #474647;
+  margin-bottom: 100px;  
 }
 
 .faculty-slide{
