@@ -1,0 +1,58 @@
+
+
+.aboutshowcase{
+   padding: 50px 0 50px 0;
+   background: url(../images/aboutshowcase.jpg) no-repeat 0px -75px;      
+}
+
+.abouttext{
+    line-height: 1.8em;         
+    padding: 25px;
+    margin: auto;
+    color: #474647;
+}
+
+.emi{
+   color: #F45D01;
+}
+
+.aboutcourses{
+  padding: 30px 10px 30px 10px; 
+  border-radius: 10px;
+  background: #F45d01;
+  margin: auto 0 auto 0;
+ 
+}
+
+.aboutcourses ul{
+    list-style-type: none;
+}
+
+.aboutcourses li{
+    padding: 3px;
+    color: #eeeeee;
+
+}
+
+.unique{
+  margin-top: 100px; 
+  background: #97CC04;
+    color: #474647;
+  margin-bottom: 100px;  
+}
+
+.faculty-slide{
+    margin: 10px 10px 20px 10px;
+}
+
+#faculty > .carousel-inner > .carousel-item > .card-deck > .card {
+    background: #eeb902;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3); 
+}
+
+#faculty > .carousel-inner > .carousel-item > .card-deck > .card > p {
+    padding: 10px;
+}

@@ -1,0 +1,45 @@
+.contact-form{
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+.map{
+    width: 100%;
+   height: 600px;
+   background-color: grey;
+}
+.title{
+    padding-left: 20px;
+    padding-bottom: 6%;
+    color: crimson;
+    font-size: 200%;
+    text-align: center;
+}
+.message{
+    height: 150px;
+}
+.contact-info li{
+    list-style-type: none;
+    border-bottom-color: rgb(241, 239, 239);
+    border-bottom-style: solid;
+    padding: 4%;
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-right: 3%;
+}
+.block{
+    display: inline-block;
+}
+.btn-message{
+    background-color: crimson;
+    color: white;
+    margin-left: 2%;
+    border-radius: 8px;
+}
+.btn-message:hover {
+    background-color: white;
+    color: crimson;
+    border-color: crimson;
+}
