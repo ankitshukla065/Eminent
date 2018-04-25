@@ -18,9 +18,9 @@ $fname = $lname = $contactNumber = $email = $course = "before";
  }
 
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "customer";
+$username = "rootEminent";
+$password = "DontAskForPassword!";
+$dbname = "customerEminent";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

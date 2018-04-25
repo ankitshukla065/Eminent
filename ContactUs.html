@@ -1,5 +1,4 @@
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +7,7 @@
     <link rel="stylesheet" href=".\src\css\bootstrap.min.css">
     <link rel="stylesheet" href=".\src\css\app.css">
     <link rel="stylesheet" href="./src/css/contact.css">
+    <script type="text/javascript" src="./src/scripts/contactUs.js"></script>
 </head>
 
 <body>
@@ -86,31 +86,31 @@
                 <div class="row">
                     <div class="title">Get in Touch</div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <form>
+                <form name="messageToSend" onsubmit="submitDetails()" method="POST">
+                    <div class="row">
+                        <div id="alert"></div>
+                        <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                                <input type="text" name="email" class="form-control" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Subject">
+                                <input type="text" name="subject" class="form-control" placeholder="Subject">
                             </div>
-                        </form>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control message" name="message" placeholder=" Your Message"></textarea>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <form>
-                            <div class="form-group">
-                                <textarea class="form-control message" placeholder=" Your Message"></textarea>
-                            </div>
-                        </form>
+                    <div class="row form-group">
+                            <button id="submit" type="button" onclick="submitDetails()" class="btn btn-message" value="Submit">Send Message</button>
+                        <!-- <button type="button" class="btn btn-message">Send Message</button> -->
                     </div>
-                </div>
-                <div class="row">
-                    <button type="button" class="btn btn-message">Send Message</button>
-                </div>
+                </form>
             </div>
             <div class="col-md-4">
                 <div class="row">
